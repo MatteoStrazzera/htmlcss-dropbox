@@ -11,13 +11,6 @@
     --dropbox-dark: rgba(0, 0, 0, 1);
     --dropbox-light: rgba(245, 245, 245, 1);
     --dropbox-lighter: rgba(255, 255, 255, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
-    --dropbox-primary: rgba(162, 211, 155, 1);
 }
 
 /* #endregion common */
@@ -98,7 +91,7 @@ div.debug{
 
 /* utilities */
 .big_container{
-    width: 70%;
+    width: 60%;
     height: 100%;
     margin: auto;
 }
@@ -117,6 +110,12 @@ div.debug{
 a.no_decoration{
     text-decoration: none;
     color: var(--dropbox-dark);
+}
+.blue_btn{
+    background-color: var(--dropbox-secondary);
+    color: var(--dropbox-lighter);
+    text-decoration: none;
+    padding: 0.75rem;
 }
 /* #region header */
 nav{
@@ -155,7 +154,23 @@ nav{
 
 /* #region jumbo */
 .jumbo{
-    background-color: beige;
+    background-color: var(--dropbox-primary);
+}
+h1{
+    font-size: xxx-large;
+    padding: 4rem 0 2rem;
+}
+.jumbo_text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.jumbo_img{
+    width: 100%;
+}
+.fa-solid{
+    font-size: xx-large;
+    padding-bottom: 1rem;
 }
 /* #endregion jumbo */
 
