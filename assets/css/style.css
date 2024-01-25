@@ -218,4 +218,19 @@ nav{
 
 /* #endregion main */
 
+/* #region footer */
+
+#site_footer{
+    background-color: brown;
+    height: 300px;
+}
+.top_footer{
+    background-color: chocolate;
+    height: 250px;
+}
+.bottom_footer{
+    background-color: azure;
+    height: 50px;
+}
+/* endregion footer */
 
