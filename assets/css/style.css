@@ -202,6 +202,20 @@ nav{
 } */
 /* #endregion sec_designit */
 
+/* #region free_trial */
+.free_trial{
+    background-color: chartreuse;
+    height: 200px;
+}
+/* #endregion free_trial */
+
+/* #region faq */
+.faq{
+    background-color: bisque;
+    height: 400px;
+}
+/* #endregion faq */
+
 /* #endregion main */
 
 
