@@ -11,72 +11,16 @@
     --dropbox-dark: rgba(0, 0, 0, 1);
     --dropbox-light: rgba(245, 245, 245, 1);
     --dropbox-lighter: rgba(255, 255, 255, 1);
+    --dropbox-lightgreen: rgba(162, 211, 155, 1);
+    --dropbox-lightred: rgba(255, 28, 28, 1);
+    --dropbox-darkred: rgba(213, 0, 31, 1);
+    --dropbox-purple: rgba(97, 9, 46, 1);
+    --dropbox-yellow: rgba(255, 216, 48, 1);
+    --dropbox-lightblue: rgba(0, 147, 206, 1);
+    --dropbox-darkblue: rgba(13, 36, 129, 1);
 }
 
 /* #endregion common */
-
-/* #region color-palette */
-
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1171px;
-    top: -1268px;
-    background-color: rgba(255, 28, 28, 1);
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1003px;
-    top: -1593px;
-    background-color: rgba(97, 9, 46, 1);
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1351px;
-    top: -1268px;
-    background-color: rgba(0, 147, 206, 1);
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1351px;
-    top: -1098px;
-    background-color: rgba(13, 36, 129, 1);
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1171px;
-    top: -1095px;
-    background-color: rgba(213, 0, 31, 1);
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    width: 129px;
-    height: 116px;
-    left: -1004px;
-    top: -1091px;
-    background-color: rgba(255, 216, 48, 1);
-}
 
 /* #endregion color-palette */
 
@@ -116,6 +60,17 @@ a.no_decoration{
     color: var(--dropbox-lighter);
     text-decoration: none;
     padding: 0.75rem;
+}
+img.center_img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+hr{
+    width: 50%;
+
 }
 /* #region header */
 nav{
@@ -194,44 +149,86 @@ h3{
 
 /* #region sec_partner */
 .partner{
-    background-color: yellow;
+    height: 400px;
+}
+.partner_img{
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/partner.png);
+}
+.partner_text{
+    width: 30%;
 }
 
 /* #endregion sec_partner */
 
 /* #region sec_designit */
 .box_containers{
-    background-color: blue;
     width: 100%;
     height: 421px;
 }
 .big_box1{
-    background-color: aliceblue;
     flex-grow: 1;
-    
 }
 .big_box2{
-   background-color: aqua;
+    background-color: var(--dropbox-light);
    flex-grow: 1;
+   position: relative;
+}
+.position{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+.design_img{
+    width: 50%;
+    padding-bottom: 2rem;
+}
+.quote{
+    padding: 2rem 0 ;
 }
 .big_box3{
-    background-color: beige;
     flex-grow: 1;
 }
-.small_box1{
-    background-color: tomato;
+.small_box1l{
+    position: relative;
+    background-color: var(--dropbox-lightgreen);
     flex-basis: 50%;
 }
-.small_box2{
-    background-color: violet;
+.small_box2l{
+    position: relative;
+    background-color: var(--dropbox-purple);
     flex-basis: 50%;
 }
-.small_box3{
-    background-color: teal;
+.small_box3l{
+    position: relative;
+    background-color: var(--dropbox-lightblue);
     flex-basis: 50%;
 }
-.small_box4{
-    background-color: lightcoral;
+.small_box4l{
+    position: relative;
+    background-color: var(--dropbox-lightred);
+    flex-basis: 50%;
+}
+.small_box1r{
+    position: relative;
+    background-color: var(--dropbox-darkred);
+    flex-basis: 50%;
+}
+.small_box2r{
+    position: relative;
+    background-color: var(--dropbox-primary);
+    flex-basis: 50%;
+}
+.small_box3r{
+    position: relative;
+    background-color: var(--dropbox-darkblue);
+    flex-basis: 50%;
+}
+.small_box4r{
+    position: relative;
+    background-color: var(--dropbox-yellow);
     flex-basis: 50%;
 }
 /* .small_box4{
