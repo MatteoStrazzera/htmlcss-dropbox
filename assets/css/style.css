@@ -91,7 +91,7 @@
 body{
     background-color: aquamarine;
 }
-.debug{
+div.debug{
     border: dashed;
 }
 /* #endregion debug */
@@ -137,6 +137,7 @@ nav{
 /* #endregion jumbo */
 
 /* #region sec_plans */
+
 .plans{
     background-color: azure;
 }
@@ -149,6 +150,11 @@ nav{
 }
 /* #endregion sec_plans */
 
+/* #region sec_partner */
+.partner{
+    background-color: yellow;
+}
 
+/* #endregion sec_partner */
 /* #endregion main */
 
