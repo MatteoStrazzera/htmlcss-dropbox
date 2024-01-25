@@ -89,7 +89,7 @@
 
 /* #region debug */
 body{
-    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
 }
 div.debug{
     border: dashed;
@@ -114,6 +114,10 @@ div.debug{
     display: flex;
     flex-wrap: wrap;
 }
+a.no_decoration{
+    text-decoration: none;
+    color: var(--dropbox-dark);
+}
 /* #region header */
 nav{
     background-color: beige;
@@ -122,7 +126,12 @@ nav{
 .left-nav{
     background-color: aliceblue;
     width: 50%;
-    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    font-size: smaller;
 }
 .right-nav{
     background-color: lightcoral;
@@ -232,5 +241,5 @@ nav{
     background-color: azure;
     height: 50px;
 }
-/* endregion footer */
+/* #endregion footer */
 
