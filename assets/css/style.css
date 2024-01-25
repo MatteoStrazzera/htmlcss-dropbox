@@ -124,7 +124,7 @@ nav{
     height: 50px;
 }
 .left-nav{
-    background-color: aliceblue;
+    background-color: var(--dropbox-lighter);
     width: 50%;
     display: flex;
     justify-content: flex-start;
@@ -134,9 +134,20 @@ nav{
     font-size: smaller;
 }
 .right-nav{
-    background-color: lightcoral;
+    background-color: var(--dropbox-lighter);
     width: 50%;
-    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 1rem;
+    font-size: smaller;
+}
+.start{
+    text-decoration: none;
+    background-color: var(--dropbox-secondary);
+    color: var(--dropbox-lighter);
+    padding: 0.3rem 0.75rem 0.3rem 0.75rem;
 }
 /* #endregion header */
 
