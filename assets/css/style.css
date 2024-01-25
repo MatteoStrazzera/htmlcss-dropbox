@@ -97,13 +97,16 @@ body{
 /* #endregion debug */
 
 /* utilities */
-.container{
-    background-color: blanchedalmond;
+.big_container{
     width: 70%;
-    height: 300px;
+    height: 100%;
     margin: auto;
 }
-
+.small_container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
 .d-flex{
     display: flex;
 }
@@ -128,7 +131,24 @@ nav{
 /* #region main */
 
 /* #region jumbo */
-
+.jumbo{
+    background-color: beige;
+}
 /* #endregion jumbo */
+
+/* #region sec_plans */
+.plans{
+    background-color: azure;
+}
+.plan-cards{
+    gap: 1rem;
+    padding: 2rem 0;
+}
+.card{
+    width: calc((100% / 12) * 4);
+}
+/* #endregion sec_plans */
+
+
 /* #endregion main */
 
