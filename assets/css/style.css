@@ -96,7 +96,7 @@ div.debug{
     margin: auto;
 }
 .small_container{
-    width: 60%;
+    width: 45%;
     height: 100%;
     margin: auto;
 }
@@ -166,7 +166,7 @@ h1{
     gap: 3rem;
 }
 .jumbo_img{
-    width: 100%;
+    width: 300%;
 }
 .fa-solid{
     font-size: xx-large;
@@ -178,6 +178,10 @@ h1{
 
 .plans{
     background-color: azure;
+}
+h3{
+    font-size: x-large;
+    padding: 4rem;
 }
 .plan-cards{
     /* gap: 1rem; */
