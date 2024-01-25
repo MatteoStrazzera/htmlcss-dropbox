@@ -1,12 +1,89 @@
 /* #region common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --dropbox-primary: rgba(180, 208, 231, 1);
+    --dropbox-secondary: rgba(0, 97, 255, 1);
+    --dropbox-dark: rgba(0, 0, 0, 1);
+    --dropbox-light: rgba(245, 245, 245, 1);
+    --dropbox-lighter: rgba(255, 255, 255, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+    --dropbox-primary: rgba(162, 211, 155, 1);
+}
+
 /* #endregion common */
 
 /* #region color-palette */
+
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1171px;
+    top: -1268px;
+    background-color: rgba(255, 28, 28, 1);
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1003px;
+    top: -1593px;
+    background-color: rgba(97, 9, 46, 1);
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1351px;
+    top: -1268px;
+    background-color: rgba(0, 147, 206, 1);
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1351px;
+    top: -1098px;
+    background-color: rgba(13, 36, 129, 1);
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1171px;
+    top: -1095px;
+    background-color: rgba(213, 0, 31, 1);
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 129px;
+    height: 116px;
+    left: -1004px;
+    top: -1091px;
+    background-color: rgba(255, 216, 48, 1);
+}
 
 /* #endregion color-palette */
 
