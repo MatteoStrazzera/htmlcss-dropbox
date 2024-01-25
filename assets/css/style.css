@@ -88,5 +88,47 @@
 /* #endregion color-palette */
 
 /* #region debug */
-
+body{
+    background-color: aquamarine;
+}
+.debug{
+    border: dashed;
+}
 /* #endregion debug */
+
+/* utilities */
+.container{
+    background-color: blanchedalmond;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* #region header */
+nav{
+    background-color: beige;
+    height: 50px;
+}
+.left-nav{
+    background-color: aliceblue;
+    width: 50%;
+    height: 100%;
+}
+.right-nav{
+    background-color: lightcoral;
+    width: 50%;
+    height: 100%;
+}
+/* #endregion header */
+
+/* #region main */
+
+/* #region jumbo */
+
+/* #endregion jumbo */
+/* #endregion main */
+
