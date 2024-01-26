@@ -35,14 +35,15 @@ div.debug{
 
 /* utilities */
 .big_container{
-    width: 60%;
+    width: 70%;
     height: 100%;
     margin: auto;
 }
 .small_container{
-    width: 45%;
+    width: 55%;
     height: 100%;
     margin: auto;
+    padding: 3rem 0;
 }
 .d-flex{
     display: flex;
@@ -134,7 +135,7 @@ h1{
 .jumbo_img{
     width: 300%;
 }
-.fa-solid{
+.fa-arrow-down{
     font-size: xx-large;
     padding-bottom: 1rem;
 }
@@ -265,12 +266,25 @@ h3{
     background-color: var(--dropbox-primary);
     /* height: 200px; */
 }
+#title_color{
+    color: var(--dropbox-purple);
+}
 /* #endregion free_trial */
 
 /* #region faq */
 .faq{
-    background-color: bisque;
-    height: 400px;
+    background-color: var(--dropbox-lighter);
+}
+.questions{
+    font-size: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--dropbox-dark);
+    border-bottom: 1px solid var(--dropbox-dark);
+}
+.fa-chevron-down{
+    font-size: smaller;
 }
 /* #endregion faq */
 
