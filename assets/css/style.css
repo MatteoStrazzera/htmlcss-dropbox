@@ -293,7 +293,7 @@ h3{
 /* #region footer */
 
 #site_footer{
-    background-color: brown;
+    background-color: var(--dropbox-dark);
 }
 .top_footer{
     width: 100%;
@@ -320,8 +320,12 @@ h3{
     }
 }
 .bottom_footer{
-    background-color: azure;
-    height: 50px;
+    padding: 3rem 0;
+}
+.language{
+    color: var(--dropbox-lighter);
+    align-items: center;
+    gap: 0.5rem;
 }
 /* #endregion footer */
 
