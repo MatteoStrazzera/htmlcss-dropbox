@@ -47,6 +47,11 @@ div.debug{
 .d-flex{
     display: flex;
 }
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .d-flex-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +63,12 @@ a.no_decoration{
 .blue_btn{
     background-color: var(--dropbox-secondary);
     color: var(--dropbox-lighter);
+    text-decoration: none;
+    padding: 0.75rem;
+}
+.white_btn{
+    background-color: var(--dropbox-lighter);
+    color: var(--dropbox-dark);
     text-decoration: none;
     padding: 0.75rem;
 }
@@ -136,7 +147,7 @@ h1{
 }
 h3{
     font-size: x-large;
-    padding: 4rem;
+    padding: 3rem 0;
 }
 .plan-cards{
     /* gap: 1rem; */
@@ -192,6 +203,9 @@ h3{
 .quote{
     padding: 2rem 1rem 2rem 0;
     font-size: x-small;
+    & div{
+        padding-top: 2rem;
+    }
 }
 .big_box3{
     flex-grow: 1;
@@ -248,8 +262,8 @@ h3{
 
 /* #region free_trial */
 .free_trial{
-    background-color: chartreuse;
-    height: 200px;
+    background-color: var(--dropbox-primary);
+    /* height: 200px; */
 }
 /* #endregion free_trial */
 
