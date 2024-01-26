@@ -294,11 +294,30 @@ h3{
 
 #site_footer{
     background-color: brown;
-    height: 300px;
 }
 .top_footer{
-    background-color: chocolate;
-    height: 250px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 4rem 0;
+}
+.footer_list{
+    width: calc(100% / 5);
+    color: var(--dropbox-lighter);
+    & ul, a{
+        list-style: none;
+        text-decoration: none;
+        color: var(--dropbox-lighter);
+    }
+    & li{
+        padding: 0.5rem 0;
+    }
+    & h4{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
 }
 .bottom_footer{
     background-color: azure;
