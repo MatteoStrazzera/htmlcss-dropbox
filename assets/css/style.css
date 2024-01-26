@@ -170,6 +170,10 @@ h3{
 }
 .big_box1{
     flex-grow: 1;
+    
+    & img{
+        filter: invert(100%);
+    }
 }
 .big_box2{
     background-color: var(--dropbox-light);
@@ -186,10 +190,14 @@ h3{
     padding-bottom: 2rem;
 }
 .quote{
-    padding: 2rem 0 ;
+    padding: 2rem 1rem 2rem 0;
+    font-size: x-small;
 }
 .big_box3{
     flex-grow: 1;
+    & img{
+        filter: invert(100%);
+    }
 }
 .small_box1l{
     position: relative;
