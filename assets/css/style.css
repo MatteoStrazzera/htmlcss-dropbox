@@ -249,6 +249,15 @@ h4{
 }
 
 /* #endregion sec_business */
+
+/* #region sec_team */
+.teams{
+    width: 70%;
+    padding-bottom: 5rem;
+}
+
+/* #endregion sec_team */
+
 /* #region sec_designit */
 .box_containers{
     width: 100%;
