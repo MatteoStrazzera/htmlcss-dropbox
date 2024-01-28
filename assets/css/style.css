@@ -232,6 +232,23 @@ h4{
 }
 /* #endregion sec_partnership */
 
+/* #region sec_business */
+.row{
+    justify-content: space-between;
+    gap: 3rem;
+}
+.business_card{
+    width: calc((100% / 12) * 3);
+
+    & img{
+        width: 100%;
+    }
+    & h4{
+        padding-bottom: 1rem;
+    }
+}
+
+/* #endregion sec_business */
 /* #region sec_designit */
 .box_containers{
     width: 100%;
