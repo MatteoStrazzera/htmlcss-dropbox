@@ -46,10 +46,10 @@ div.debug{
 .d-flex{
     display: flex;
 }
-.d-flex-center{
+.d-flex-between{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .d-flex-wrap{
     display: flex;
@@ -349,8 +349,12 @@ h4{
     background-color: var(--dropbox-primary);
     /* height: 200px; */
 }
-#title_color{
+.company_left{
+    width: 60%;
     color: var(--dropbox-purple);
+}
+.company_right{
+    width: 30%;
 }
 /* #endregion free_trial */
 
